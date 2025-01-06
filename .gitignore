@@ -1,0 +1,31 @@
+# Binaries do Go (executáveis gerados a partir de `go build`)
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Saída de cobertura de testes (ex.: gerado por `go test -coverprofile=coverage.out`)
+*.out
+
+# Logs
+*.log
+
+# Diretório `vendor` (caso utilize `go mod vendor`)
+vendor/
+
+# Pastas/arquivos do GoLand ou IntelliJ IDEA
+.idea/
+
+# Configurações temporárias locais
+*.local
+
+# Se você usa Docker, pode ignorar arquivos de configuração, build, etc.
+docker-compose.override.yml
+
+# Se você usa dotenv (.env) para variáveis de ambiente (recomendado não versionar)
+.env
+
+.vscode/
